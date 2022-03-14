@@ -8,7 +8,7 @@ function App() {
     <FeedbackProvider>
       <BrowserRouter>
         <Routes>
-          <Route exact path='/' element={<FrontPage/>} />
+          <Route exact path='/feedback' element={<FrontPage/>} />
           <Route exact path='/about' element={<AboutPage/>} />
         </Routes>
       </BrowserRouter>
